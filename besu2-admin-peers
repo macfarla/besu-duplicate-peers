@@ -1,0 +1,41 @@
+{
+  "jsonrpc" : "2.0",
+  "id" : 51,
+  "result" : [ {
+    "version" : "0x5",
+    "name" : "besu/v22.1.0-RC2-dev-2786ce91/osx-x86_64/oracle_openjdk-java-11",
+    "caps" : [ "eth/62", "eth/63", "eth/64", "eth/65", "eth/66", "IBF/1" ],
+    "network" : {
+      "localAddress" : "127.0.0.1:40404",
+      "remoteAddress" : "127.0.0.1:59730"
+    },
+    "port" : "0x765f",
+    "id" : "0x0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73",
+    "protocols" : {
+      "eth" : {
+        "difficulty" : "0x1",
+        "head" : "0x436adb519c68f498b7cdb5649dcd51ee58be077fc8175e9db98471b2433ff88c",
+        "version" : 66
+      }
+    },
+    "enode" : "enode://0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73@127.0.0.1:30303?discport=0"
+  }, {
+    "version" : "0x5",
+    "name" : "besu/v22.1.0-RC2-dev-2786ce91/osx-x86_64/oracle_openjdk-java-11",
+    "caps" : [ "eth/62", "eth/63", "eth/64", "eth/65", "eth/66", "IBF/1" ],
+    "network" : {
+      "localAddress" : "127.0.0.1:59731",
+      "remoteAddress" : "127.0.0.1:30303"
+    },
+    "port" : "0x765f",
+    "id" : "0x0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73",
+    "protocols" : {
+      "eth" : {
+        "difficulty" : "0x0",
+        "head" : "0x",
+        "version" : 0
+      }
+    },
+    "enode" : "enode://0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73@127.0.0.1:30303"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "jsonrpc" : "2.0",
+  "id" : 51,
+  "result" : [ {
+    "version" : "0x5",
+    "name" : "besu/v22.1.0-RC2-dev-2786ce91/osx-x86_64/oracle_openjdk-java-11",
+    "caps" : [ "eth/62", "eth/63", "eth/64", "eth/65", "eth/66", "IBF/1" ],
+    "network" : {
+      "localAddress" : "127.0.0.1:59730",
+      "remoteAddress" : "127.0.0.1:40404"
+    },
+    "port" : "0x9dd4",
+    "id" : "0x2d74dd39360f37a29585c0fac62979f77403037cda9f66d364955d222b73550f89260a35654c003669bd8de1095a22898cea68ddab96e745c94dc9b2533643fe",
+    "protocols" : {
+      "eth" : {
+        "difficulty" : "0x1",
+        "head" : "0x436adb519c68f498b7cdb5649dcd51ee58be077fc8175e9db98471b2433ff88c",
+        "version" : 66
+      }
+    },
+    "enode" : "enode://2d74dd39360f37a29585c0fac62979f77403037cda9f66d364955d222b73550f89260a35654c003669bd8de1095a22898cea68ddab96e745c94dc9b2533643fe@127.0.0.1:40404"
+  } ]
+}

@@ -1,0 +1,101 @@
+2022-01-26 08:20:30.032+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Start peer search.
+2022-01-26 08:20:30.033+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Initiating bonding round with 1 candidates
+2022-01-26 08:20:30.048+10:00 | main | INFO  | DefaultP2PNetwork | Enode URL enode://2d74dd39360f37a29585c0fac62979f77403037cda9f66d364955d222b73550f89260a35654c003669bd8de1095a22898cea68ddab96e745c94dc9b2533643fe@127.0.0.1:40404
+2022-01-26 08:20:30.049+10:00 | main | INFO  | DefaultP2PNetwork | Node address 0xe2a1f69923623ece7bffa9da915ef10f45f53b84
+2022-01-26 08:20:30.050+10:00 | main | INFO  | DefaultSynchronizer | Starting synchronizer.
+2022-01-26 08:20:30.051+10:00 | main | INFO  | FullSyncDownloader | Starting full sync.
+2022-01-26 08:20:30.054+10:00 | main | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 0
+2022-01-26 08:20:30.056+10:00 | main | DEBUG | WaitForPeerTask | Waiting for new peer connection. 0 peers currently connected.
+2022-01-26 08:20:30.061+10:00 | vert.x-eventloop-thread-1 | DEBUG | AbstractByteBuf | -Dio.netty.buffer.checkAccessible: true
+2022-01-26 08:20:30.061+10:00 | vert.x-eventloop-thread-1 | DEBUG | AbstractByteBuf | -Dio.netty.buffer.checkBounds: true
+2022-01-26 08:20:30.061+10:00 | vert.x-eventloop-thread-1 | DEBUG | ResourceLeakDetectorFactory | Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@210c33a3
+2022-01-26 08:20:30.066+10:00 | main | INFO  | Runner | Ethereum main loop is up.
+2022-01-26 08:20:30.069+10:00 | vert.x-eventloop-thread-1 | DEBUG | Recycler | -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-01-26 08:20:30.069+10:00 | vert.x-eventloop-thread-1 | DEBUG | Recycler | -Dio.netty.recycler.ratio: 8
+2022-01-26 08:20:30.069+10:00 | vert.x-eventloop-thread-1 | DEBUG | Recycler | -Dio.netty.recycler.chunkSize: 32
+2022-01-26 08:20:30.086+10:00 | vert.x-worker-thread-1 | DEBUG | PingPacketData | read PING enr as long scalar
+2022-01-26 08:20:30.087+10:00 | vert.x-worker-thread-1 | DEBUG | PongPacketData | read PONG enr from scalar
+2022-01-26 08:20:30.104+10:00 | vert.x-worker-thread-4 | DEBUG | PongPacketData | read PONG enr from scalar
+2022-01-26 08:20:30.166+10:00 | nioEventLoopGroup-3-1 | DEBUG | HandshakeHandlerOutbound | Wrote initial crypto handshake message to /127.0.0.1:30303.
+2022-01-26 08:20:30.234+10:00 | nioEventLoopGroup-3-1 | DEBUG | RlpxAgent | Outbound connection established to peer: 0x0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73
+2022-01-26 08:20:30.237+10:00 | nioEventLoopGroup-3-2 | DEBUG | RlpxAgent | Duplicate connection detected, disconnecting previously established connection in favor of new inbound connection for peer:  0x0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73
+2022-01-26 08:20:30.242+10:00 | nioEventLoopGroup-3-2 | DEBUG | EthProtocolManager | Disconnect - Outbound - 0x05 ALREADY_CONNECTED - PeerInfo{version=5, clientId='besu/v22.1.0-RC2-dev-2786ce91/osx-x86_64/oracle_openjdk-java-11', capabilities=[eth/62, eth/63, eth/64, eth/65, eth/66, IBF/1], port=30303, nodeId=0x0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73} - 0 peers left
+2022-01-26 08:20:30.242+10:00 | nioEventLoopGroup-3-1 | DEBUG | EthProtocolManager | Sending status message to Peer 0x0b384cd0f14a487b11....
+2022-01-26 08:20:30.245+10:00 | nioEventLoopGroup-3-2 | DEBUG | EthProtocolManager | Sending status message to Peer 0x0b384cd0f14a487b11....
+2022-01-26 08:20:30.486+10:00 | nioEventLoopGroup-3-2 | DEBUG | EthProtocolManager | Received status message from Peer 0x0b384cd0f14a487b11...: org.hyperledger.besu.ethereum.eth.messages.StatusMessage@1c17bb73
+2022-01-26 08:20:30.488+10:00 | nioEventLoopGroup-3-2 | DEBUG | ChainHeadTracker | Requesting chain head info for Peer 0x0b384cd0f14a487b11...
+2022-01-26 08:20:30.491+10:00 | nioEventLoopGroup-3-2 | DEBUG | GetHeadersFromPeerByHashTask | Requesting 1 headers from peer Peer 0x0b384cd0f14a487b11....
+2022-01-26 08:20:30.495+10:00 | nioEventLoopGroup-3-2 | DEBUG | WaitForPeerTask | Finished waiting for peer connection.
+2022-01-26 08:20:30.495+10:00 | nioEventLoopGroup-3-2 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:20:30.495+10:00 | nioEventLoopGroup-3-2 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:20:30.500+10:00 | nioEventLoopGroup-3-2 | DEBUG | AbstractGetHeadersFromPeerTask | Received 1 of 1 headers requested from peer Peer 0x0b384cd0f14a487b11...
+2022-01-26 08:20:32.055+10:00 | vert.x-worker-thread-6 | DEBUG | PongPacketData | read PONG enr from scalar
+2022-01-26 08:20:35.049+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Bonding round timed out
+2022-01-26 08:20:35.050+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Iterative peer search complete.  1 peers processed over 1 rounds.
+2022-01-26 08:20:35.058+10:00 | vert.x-worker-thread-8 | DEBUG | PongPacketData | read PONG enr from scalar
+2022-01-26 08:20:35.498+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:20:35.499+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:20:39.558+10:00 | vert.x-worker-thread-10 | DEBUG | PongPacketData | read PONG enr from scalar
+2022-01-26 08:20:40.499+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:20:40.499+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:20:45.505+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:20:45.505+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:20:45.506+10:00 | nioEventLoopGroup-3-2 | DEBUG | WireKeepAlive | Idle connection detected, sending Wire PING to peer.
+2022-01-26 08:20:45.508+10:00 | nioEventLoopGroup-3-2 | DEBUG | ApiHandler | Received Wire PING
+2022-01-26 08:20:45.509+10:00 | nioEventLoopGroup-3-2 | DEBUG | ApiHandler | Received Wire PONG
+2022-01-26 08:20:46.311+10:00 | vert.x-worker-thread-13 | DEBUG | PongPacketData | read PONG enr from scalar
+2022-01-26 08:20:50.511+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:20:50.511+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:20:55.517+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:20:55.517+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:20:56.438+10:00 | vert.x-worker-thread-18 | DEBUG | PongPacketData | read PONG enr from scalar
+2022-01-26 08:21:00.049+10:00 | vert.x-eventloop-thread-1 | DEBUG | PeerDiscoveryController | Peer table refresh triggered by timer expiry
+2022-01-26 08:21:00.050+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Start peer search.
+2022-01-26 08:21:00.050+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Skipping bonding round because no candidates are available
+2022-01-26 08:21:00.051+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Initiating neighbours round with 1 candidates from 1 tracked nodes
+2022-01-26 08:21:00.061+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Received neighbours packet with 1 neighbours
+2022-01-26 08:21:00.062+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Skipping bonding round because no candidates are available
+2022-01-26 08:21:00.062+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Iterative peer search complete.  1 peers processed over 2 rounds.
+2022-01-26 08:21:00.510+10:00 | nioEventLoopGroup-3-2 | DEBUG | WireKeepAlive | Idle connection detected, sending Wire PING to peer.
+2022-01-26 08:21:00.511+10:00 | nioEventLoopGroup-3-2 | DEBUG | ApiHandler | Received Wire PING
+2022-01-26 08:21:00.512+10:00 | nioEventLoopGroup-3-2 | DEBUG | ApiHandler | Received Wire PONG
+2022-01-26 08:21:00.522+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:21:00.522+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:21:05.528+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:21:05.528+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:21:10.529+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:21:10.529+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:21:15.513+10:00 | nioEventLoopGroup-3-2 | DEBUG | WireKeepAlive | Idle connection detected, sending Wire PING to peer.
+2022-01-26 08:21:15.515+10:00 | nioEventLoopGroup-3-2 | DEBUG | ApiHandler | Received Wire PING
+2022-01-26 08:21:15.515+10:00 | nioEventLoopGroup-3-2 | DEBUG | ApiHandler | Received Wire PONG
+2022-01-26 08:21:15.531+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 2
+2022-01-26 08:21:15.531+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 2 peers currently connected.
+2022-01-26 08:21:16.307+10:00 | nioEventLoopGroup-3-2 | DEBUG | EthProtocolManager | Disconnect - Inbound - 0x08 CLIENT_QUITTING - PeerInfo{version=5, clientId='besu/v22.1.0-RC2-dev-2786ce91/osx-x86_64/oracle_openjdk-java-11', capabilities=[eth/62, eth/63, eth/64, eth/65, eth/66, IBF/1], port=30303, nodeId=0x0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73} - 1 peers left
+2022-01-26 08:21:20.532+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 1
+2022-01-26 08:21:20.532+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 1 peers currently connected.
+2022-01-26 08:21:25.534+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 1
+2022-01-26 08:21:25.534+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 1 peers currently connected.
+2022-01-26 08:21:30.049+10:00 | vert.x-eventloop-thread-1 | DEBUG | PeerDiscoveryController | Peer table refresh triggered by insufficient peers
+2022-01-26 08:21:30.054+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Start peer search.
+2022-01-26 08:21:30.054+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Skipping bonding round because no candidates are available
+2022-01-26 08:21:30.054+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Initiating neighbours round with 1 candidates from 1 tracked nodes
+2022-01-26 08:21:30.069+10:00 | nioEventLoopGroup-3-3 | DEBUG | RlpxAgent | Failed to connect to peer 0x0b384cd0f14a487b11525205b9542f4dae3e2c573be1148432cb6e84209c1b3869cf83854c841456e8f98dc611f3f89e3fed18a7dd1862c5540bccb970813d73: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:30303
+2022-01-26 08:21:30.540+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 1
+2022-01-26 08:21:30.540+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 1 peers currently connected.
+2022-01-26 08:21:35.057+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Neighbours round timed out
+2022-01-26 08:21:35.057+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Skipping bonding round because no candidates are available
+2022-01-26 08:21:35.057+10:00 | vert.x-eventloop-thread-1 | DEBUG | RecursivePeerRefreshState | Iterative peer search complete.  1 peers processed over 2 rounds.
+2022-01-26 08:21:35.541+10:00 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | No sync target, waiting for peers: 1
+2022-01-26 08:21:35.541+10:00 | EthScheduler-Timer-0 | DEBUG | WaitForPeerTask | Waiting for new peer connection. 1 peers currently connected.
+^C^C2022-01-26 08:21:38.066+10:00 | Thread-1 | DEBUG | BesuPluginContextImpl | Plugin shutdown complete.
+^C2022-01-26 08:21:38.446+10:00 | pool-8-thread-1 | INFO  | BftProcessor | Shutting down BFT event processor
+2022-01-26 08:21:38.447+10:00 | Thread-1 | INFO  | DefaultSynchronizer | Stopping synchronizer
+2022-01-26 08:21:38.448+10:00 | Thread-1 | INFO  | NetworkRunner | Stopping Network.
+2022-01-26 08:21:38.452+10:00 | nioEventLoopGroup-3-1 | DEBUG | PoolThreadCache | Freed 4 thread-local buffer(s) from thread: nioEventLoopGroup-3-1
+2022-01-26 08:21:38.452+10:00 | nioEventLoopGroup-3-2 | DEBUG | PoolThreadCache | Freed 4 thread-local buffer(s) from thread: nioEventLoopGroup-3-2
+2022-01-26 08:21:38.453+10:00 | Thread-1 | INFO  | EthProtocolManager | Stopping eth Subprotocol.
+2022-01-26 08:21:38.453+10:00 | Thread-1 | INFO  | EthProtocolManager | eth Subprotocol stopped.
+2022-01-26 08:21:38.454+10:00 | Thread-1 | INFO  | NetworkRunner | Network stopped.
+2022-01-26 08:21:38.454+10:00 | Thread-1 | INFO  | AutoTransactionLogBloomCachingService | Shutting down Auto transaction logs caching service.
+2022-01-26 08:21:38.454+10:00 | Thread-1 | INFO  | NatService | No NAT environment detected so no service could be stopped
+2022-01-26 08:21:38.531+10:00 | vert.x-eventloop-thread-1 | DEBUG | PoolThreadCache | Freed 3 thread-local buffer(s) from thread: vert.x-eventloop-thread-1
